@@ -11,9 +11,8 @@ import {
     import NextLink from "next/link";
     import { siteConfig } from "@/config/site";
     import Image from "next/image";
-    import logo from "../src/logo.png";
+    import logo from "@/public/images/logo.png";
     import { title } from "@/font/font";
-    import { para } from "@/font/font";
 
     export const Navbar = () => {
 

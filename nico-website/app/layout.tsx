@@ -1,3 +1,4 @@
+
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { Link } from "@nextui-org/link";
@@ -12,9 +13,10 @@ export const metadata: Metadata = {
     },
     description: siteConfig.description,
     icons: {
-        icon: "./src/logo.png",
+        icon: "../public/images/logo.png",
     },
 };
+
 
 export default function RootLayout({
     children,
@@ -27,10 +29,10 @@ export default function RootLayout({
             <head />
             <body className="antialiased">
                 <Providers themeProps={{ attribute: "class"}}>
-                    {/* <Navbar /> */}
-                        <main>
-                        {children}
-                        </main>
+                    <Navbar />
+                    <main>
+                    {children}
+                    </main>
                 </Providers>
             </body>
         </html>
