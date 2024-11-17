@@ -1,0 +1,3 @@
+.tailwind-class-you-want-to-remove {
+    all: unset; /* Désactive toutes les propriétés */
+}

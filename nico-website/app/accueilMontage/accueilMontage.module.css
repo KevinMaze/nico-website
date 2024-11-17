@@ -1,0 +1,20 @@
+.imageParallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('../../public/images/bg_accueil_montage.jpg');
+    background-color: red;
+    width: 100%;
+}
+
+.section__montage {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
